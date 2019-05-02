@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="Bands.Albums"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Bands"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush x:Name="Image" ImageSource="{Binding backg}" Stretch="Fill"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Albums" FontSize="50" FontWeight="Bold" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <ScrollViewer Grid.Row="1" >
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="130" />
+                <RowDefinition Height="130" />
+                <RowDefinition Height="130" />
+                <RowDefinition Height="130" />
+                <RowDefinition Height="130" />
+                <RowDefinition Height="130" />
+                <RowDefinition Height="130" />
+                <RowDefinition Height="130" />
+                <RowDefinition Height="130" />
+                <RowDefinition Height="130" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Image Grid.Row="0" Source="Assets/ddd.png" Margin="10"  Tapped="Image_Tapped" />
+            <TextBlock x:Name="n1" Grid.Row="0" Grid.Column="1" Text="{Binding name1}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Foreground="Black" FontSize="25" Tapped="Image_Tapped" FontWeight="Bold" />
+            <Image Grid.Row="1" Source="Assets/ddd.png" Margin="10"  Tapped="Image_Tapped_1" />
+                <TextBlock x:Name="n2" Grid.Row="1" Grid.Column="1" Text="{Binding name1}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Foreground="Black" FontSize="25" Tapped="Image_Tapped_1" FontWeight="Bold" />
+            <Image Grid.Row="2" Source="Assets/ddd.png" Margin="10"  Tapped="Image_Tapped_2"  />
+                <TextBlock x:Name="n3" Grid.Row="2" Grid.Column="1" Text="{Binding name1}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Foreground="Black" FontSize="25" Tapped="Image_Tapped_2" FontWeight="Bold" />
+            <Image Grid.Row="3" Source="Assets/ddd.png" Margin="10"  Tapped="Image_Tapped_3"  />
+                <TextBlock x:Name="n4" Grid.Row="3" Grid.Column="1" Text="{Binding name1}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Foreground="Black" FontSize="25" Tapped="Image_Tapped_3" FontWeight="Bold" />
+            <Image Grid.Row="4" Source="Assets/ddd.png" Margin="10"  Tapped="Image_Tapped_4" />
+                <TextBlock x:Name="n5" Grid.Row="4" Grid.Column="1" Text="{Binding name1}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Foreground="Black" FontSize="25" Tapped="Image_Tapped_4" FontWeight="Bold" />
+            <Image Grid.Row="5" Source="Assets/ddd.png" Margin="10"  Tapped="Image_Tapped_5"  />
+                <TextBlock x:Name="n6" Grid.Row="5" Grid.Column="1" Text="{Binding name1}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Foreground="Black" FontSize="25" Tapped="Image_Tapped_5" FontWeight="Bold" />
+            <Image Grid.Row="6" Source="Assets/ddd.png" Margin="10"  Tapped="Image_Tapped_6" />
+                <TextBlock x:Name="n7" Grid.Row="6" Grid.Column="1" Text="{Binding name1}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Foreground="Black" FontSize="25" Tapped="Image_Tapped_6" FontWeight="Bold" />
+            <Image Grid.Row="7" Source="Assets/ddd.png" Margin="10"  Tapped="Image_Tapped_7"  />
+                <TextBlock x:Name="n8" Grid.Row="7" Grid.Column="1" Text="{Binding name1}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Foreground="Black" FontSize="25" Tapped="Image_Tapped_7" FontWeight="Bold" />
+            <Image Grid.Row="8" Source="Assets/ddd.png" Margin="10"  Tapped="Image_Tapped_8"  />
+                <TextBlock x:Name="n9" Grid.Row="8" Grid.Column="1" Text="{Binding name1}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Foreground="Black" FontSize="25" Tapped="Image_Tapped_8" FontWeight="Bold" />
+            <Image Grid.Row="9" Source="Assets/ddd.png" Margin="10"  Tapped="Image_Tapped_9"  />
+                <TextBlock x:Name="n10" Grid.Row="9" Grid.Column="1" Text="{Binding name1}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5" Foreground="Black" FontSize="25" Tapped="Image_Tapped_9" FontWeight="Bold" />
+        </Grid>
+        </ScrollViewer>    
+    </Grid>
+        
+</Page>
