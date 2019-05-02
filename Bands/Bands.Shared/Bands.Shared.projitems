@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>74a96b5a-0f18-4bc7-aa15-716c89b96de4</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Bands</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)BandsInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\DataSerialization.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\Http.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InternetConnection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SoundCloudTrack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)YoutubeVideo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\10.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\asss.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Audio.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\bas.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\basbg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\bgcairo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\bgggggg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\black.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ddd.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\eeee.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ff.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\images.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\kar.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\msa.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\re7laaaa.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\sa7.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\sa7bg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\sal.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\salbg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Shar.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\10ghar.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\bg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\bth.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\cairokee.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\krakeb.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\massar.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\re7la.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\soot.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\sot.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\sharbg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\tot.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\uss.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\was.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\wasla.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\wesssss.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\west.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\youtube.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\zap.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\zapaaaa.png" />
+  </ItemGroup>
+</Project>
